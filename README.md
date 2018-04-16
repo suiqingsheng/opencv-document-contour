@@ -11,7 +11,7 @@ All algorithms are based on the "classic" approach to find document contours:
 4. Apply "Canny Edge" - finds any edges between different components on image.
 5. Dilate - increases size of every edge which allows to remove holes and cuts between edges and strengthens the value of the most important edges.
 6. Find lines with Hough transformation and draw - finds all lines which can connect broken edges.
-7. Find contours - finds all closed contours on drawed lines and edges and contours are represented with points.
+7. Find contours - finds all closed contours on drawed lines and edges and represents contours with points.
 8. Apply any kind of filters (convexHull, calculate arc and area, approxPolyDP) - filters and finds better contours. 
 
 Algorithms have a bit differences in sequence of steps, input params for image processing functions.
